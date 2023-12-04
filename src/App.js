@@ -1,5 +1,5 @@
 import "./App.css";
-import TaskContainer from "./components/task-container/TaskContainer";
+import TaskView from "./components/task-view/TaskView";
 
 function App() {
   const data = [
@@ -24,7 +24,7 @@ function App() {
   ];
   return (
     <div className="app-container">
-      <TaskContainer taskList={data} />
+      <TaskView taskList={data} />
     </div>
   );
 }

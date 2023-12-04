@@ -1,7 +1,7 @@
-import "./TaskContainer.css";
+import "./TaskView.css";
 import TaskCard from "../task-card/TaskCard";
 
-function TaskContainer(props) {
+function TaskView(props) {
   return (
     <div className="task-viewer-container">
       <div className="task-list-container">
@@ -28,4 +28,4 @@ function TaskContainer(props) {
   );
 }
 
-export default TaskContainer;
+export default TaskView;
