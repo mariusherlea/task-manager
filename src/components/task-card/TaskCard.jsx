@@ -1,6 +1,7 @@
 import Badge from "../badge/Badge";
-import DateContainer from "../date-container/DateContainer";
 import "./TaskCard.css";
+import DateContainer from "../date-container/DateContainer";
+
 function TaskCard(props) {
   return (
     <div className="card-wrapper">
